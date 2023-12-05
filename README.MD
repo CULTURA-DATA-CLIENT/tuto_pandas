@@ -10,13 +10,13 @@ Ce projet est conçu pour être facilement compréhensible, même si vous êtes 
 - Assurez-vous d'avoir Python installé sur votre machine. Vous pouvez le télécharger depuis [le site officiel de Python](https://www.python.org/downloads/).
 
 #### Vérification de l'installation 
-- Pour vérifier l'installation depython, ouvrez un terminal et tapez : 
+- Pour vérifier l'installation de python, ouvrez un terminal et tapez : 
 
 ```
     Python --version
 ```
 
-- cette commande devrait vos retourné quelque chose du genre : 
+- cette commande devrait voUs retourner quelque chose du genre : 
 ```
     python 3.11.3
 ```
@@ -42,19 +42,19 @@ Vous pouvez télécharger le projet de deux manières :
 ### Configuration de l'Environnement Virtuel
 
 1. Ouvrez le terminal ou l'invite de commande.
-2. Naviguez jusqu'au dossier `traffic` du projet.
+2. Naviguez jusqu'au dossier du projet.
 3. Créez un environnement virtuel en exécutant :
      ```
-    py -m venv traffic
+    py -m venv nom_de_votre_env
      ```
 4. Activez l'environnement virtuel :
 - Sur Windows :
   ```
-  traffic\Scripts\activate
+  nom_de_votre_env\Scripts\activate
   ```
 - Sur macOS ou Linux :
   ```
-  source traffic/bin/activate
+  source nom_de_votre_env/bin/activate
   ```
 5. Installez les dépendances requises en exécutant :
   ```
