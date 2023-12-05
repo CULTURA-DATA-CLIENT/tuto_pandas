@@ -54,7 +54,7 @@ Vous pouvez télécharger le projet de deux manières :
   ```
 - Sur macOS ou Linux :
   ```
-  source nom_de_votre_env/bin/activate
+  nom_de_votre_env/bin/activate.bat
   ```
 5. Installez les dépendances requises en exécutant :
   ```
